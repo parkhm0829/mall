@@ -5,4 +5,4 @@ c.indexController.doGet-> v.index.jsp
 c.addmember.doGet->v.addmember.jsp
 
 3.회원가입액션
-c.addmemberdoPost->m.memberDao.insertmember->redirect//c.getMemberList
+c.addmemberdoPost->m.memberDao.insertmember->redirect//c.getMemberListsadfs
