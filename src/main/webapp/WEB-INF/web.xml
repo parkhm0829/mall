@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>index</servlet-name>
+  	<display-name>index</display-name>
+  	<description></description>
+  	<servlet-class>cafe.jjdev.mall.controller.index</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Indexcontroller</servlet-name>
+  	<display-name>Indexcontroller</display-name>
+  	<description></description>
+  	<servlet-class>cafe.jjdev.mall.controller.indexcontroller</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>indexController</servlet-name>
+  	<display-name>indexController</display-name>
+  	<description></description>
+  	<servlet-class>cafe.jjdev.mall.controller.indexController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>index</servlet-name>
+  	<url-pattern>/index</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>indexcontroller</servlet-name>
+  	<url-pattern>/indexcontroller</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>indexController</servlet-name>
+  	<url-pattern>/indexController</url-pattern>
+  </servlet-mapping>
+</web-app>
