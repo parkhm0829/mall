@@ -1,0 +1,8 @@
+1.메인페이지
+c.indexController.doGet-> v.index.jsp
+
+2.회원가입폼
+c.addmember.doGet->v.addmember.jsp
+
+3.회원가입액션
+c.addmemberdoPost->m.memberDao.insertmember->redirect//c.getMemberList
